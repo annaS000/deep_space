@@ -1,0 +1,9 @@
+cd
+git clone
+ls
+cd name of repo
+pwd
+git add (file name) -A
+git status
+git git commit -m "(message)"
+git push
