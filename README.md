@@ -66,9 +66,13 @@ To begin the analysis of campaign launch dates, I created a line graph that disp
 
     * Another limitation of this data is the genres of the plays we are using are not readily available. I suppose we can go through the blurbs of each title and decide but, it would be very useful to be able to have a column with that information. 
 4. What are some other possible tables and/or graphs that we could create?
-    * Some other
+    * Another way to use the Launch Date for analysis is by also using the End Date of the campaigns. I created a new column in the spreadsheet to show how many days each campaign lasted for by using the function **Days()** and labeled it **Duration**. It might seem intuitive that the longer a campaign runs the more likely it will be successful because the longer time would allow more opportunities for backers to donate funds. 
+
 ![Outcomes_vs_Duration](https://raw.githubusercontent.com/annaS000/mywork/main/challenges/kickstarter/resources/Outcomes_vs_Duration.png)
+>In these two charts above and below, you can see that intuitive thought is not the case here. In fact, the sweet spot of how many days the campaigns ran is between 10-40 days. Anything longer than
+
 ![Outcomes_vs_Duration2](https://raw.githubusercontent.com/annaS000/mywork/main/challenges/kickstarter/resources/Outcomes_vs_Duration2.png)
+
 ![Outcomes_vs_Goals2](https://raw.githubusercontent.com/annaS000/mywork/main/challenges/kickstarter/resources/Outcomes_vs_Goals2.png)
 
 
