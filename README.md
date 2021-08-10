@@ -1,40 +1,41 @@
-# **Kickstarting with Excel**
+# <span style="color:#c0c5ce">**Kickstarting with Excel**</span>
 
-## **Overview of Project**
+## <span style="color:#a7adba">**Overview of Project**</span>
 
-### **Purpose**
->The goal of this project is to continue our analysis of [Kickstarter data](https://github.com/annaS000/mywork/blob/main/challenges/kickstarter/Kickstarter_Challenge%20copy.xlsx) for the playwright, Louise. First, we helped her start a crowdfunding campaign for her play **_Fever_**, with an estimated budget to be **over $10,000**. That analysis included giving Louise accurate information/recommendations backed by research to set up her campaign for success. This was done by gathering data from other campaigns on the crowdfunding website Kickstarter and conducting an analysis on different variables using tables and charts to find trends that can affect the outcome. These results were used as guidelines for what makes an effective and profitable campaign.
-Now that Louise has raised close to her funding goal in a short time frame, she has come to us again to find out how other campaigns turned out in relation to their **launch dates** and **funding goals**. We will submit a written analysis along with visualizations.
+### <span style="color:#65737e">**Purpose**</span>
+>The goal of this project is to continue our analysis of <a href="https://github.com/annaS000/mywork/blob/main/challenges/kickstarter/Kickstarter_Challenge%20copy.xlsx" style="color:#99FFCC; text-decoration: underline;text-decoration-style: dotted;">Kickstarter data</a> for the playwright, Louise. First, we helped her start a crowdfunding campaign for her play **_Fever_**, with an estimated budget to be **over $10,000**. That analysis included giving Louise accurate information/recommendations backed by research to set up her campaign for success. This was done by gathering data from other campaigns on the crowdfunding website Kickstarter and conducting an analysis on different variables using tables and charts to find trends that can affect the outcome. These results were used as guidelines for what makes an effective and profitable campaign.
+>>Now that Louise has raised close to her funding goal in a short time frame, she has come to us again to find out how other campaigns turned out in relation to their **launch dates** and **funding goals**. We will submit a written analysis along with visualizations.
 
 ---
+---
 
-## **Analysis and Challenges**
+## <span style="color:#a7adba">**Analysis and Challenges**</span>
 I will now walk through the process I took to analyze this data for Louise.
 
-### **Analysis of Outcomes Based on Launch Date**
+### <span style="color:#65737e">**Analysis of Outcomes Based on Launch Date**</span>
 To begin the analysis of campaign launch dates, I created a line graph that displays the number of successful, failed, and canceled campaigns throughout the months of the year.
 
-### Chart 1:
+### <span style="color:#65737e">Chart 1:</span>
 ![Theater_Outcomes_vs_Launch](https://raw.githubusercontent.com/annaS000/mywork/main/challenges/kickstarter/resources/Theater_Outcome_vs_Launch.png)
 
  >Here, you can see there is a very obvious peak of 111 cases in successes during the month of May  followed by decline for the rest of the summer months. There is also a slight increase in October just to decline again after. I found this to be interesting so, I used the **Years** filter to see if this was a common occurrence throughout the years.
 
-### Chart 2:
+### <span style="color:#65737e">Chart 2:</span>
 ![Theater_Outcomes_vs_Launch2](https://raw.githubusercontent.com/annaS000/mywork/main/challenges/kickstarter/resources/Theater_Outcome_vs_Launch2.png)
 
 >I broke up the data into two smaller intervals of years to see if I would yield similar results
 
-### Chart 3:
+### <span style="color:#65737e">Chart 3:</span>
 
  ![Theater_Outcomes_vs_Launch3](https://raw.githubusercontent.com/annaS000/mywork/main/challenges/kickstarter/resources/Theater_Outcome_vs_Launch3.png)
 
 
 ### **Analysis of Outcomes Based on Goals**
 
-### Chart 4:
+### <span style="color:#65737e">Chart 4:
 ![Outcomes_vs_Goals](https://raw.githubusercontent.com/annaS000/mywork/main/challenges/kickstarter/resources/Outcomes_vs_Goals.png)
 
-### Chart 5:
+### <span style="color:#4DB6AC">Chart 5:
 ![Campaigns_vs_Goals](https://raw.githubusercontent.com/annaS000/mywork/main/challenges/kickstarter/resources/Campaigns_vs_Goals.png)
 ### **Challenges and Difficulties Encountered**
 * The biggest challenge I encountered was figuring out how I wanted to word the conclusions for this analysis. Most of my experience for analyzing data comes from statistic classes in college where I would have to conduct a some kind of hypothesis testing to support any claims. Since the challenge only asks us to make two charts to form our opinions, I felt very limited on what I could say with confidence. There are many variables that affect the outcomes of these campaigns. When making any statements about data, I want to make sure what I am saying is not misleading in anyway. I decided to create a few more charts for my analysis to get a better understanding of the data as well as reformatting the original charts I made. This helped me get a clearer picture.  
@@ -45,8 +46,11 @@ To begin the analysis of campaign launch dates, I created a line graph that disp
 ## **Results**
 
 1. What are two conclusions you can draw about the Outcomes based on Launch Date?
+    
 
     [Click here to see Chart 1](#chart-1)
+
+    <a href="#chart-1" style="color:#99FFCC; text-decoration: underline;text-decoration-style: dotted;">Click here to see Chart 1</a>
 
     [Click here to see Chart 2](#chart-2)
 
