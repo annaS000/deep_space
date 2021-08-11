@@ -16,30 +16,30 @@ This section will walk through the process I took to analyze this data for Louis
 To begin the analysis of campaign launch dates, I created a line graph that displays the number of successful, failed, and canceled campaigns throughout the months of the year. This was done by creating a PivotTable with the rows populated with **Date Created Conversion**, columns labeled **outcomes**, and showing the values for the **Count of Outcomes**. I added filters for **Parent Category** and **Years** and then set the Parent Category to **Theater** so I can see the results for those specific data points. After looking the graphs over, I added data labels to point in the graph I found to be interesting.
 
 ### Chart 1: 
-##### [Results](####Outcomes-Based-on-Launch-Date)
+##### [Results](#outcomes-based-on-launch-date)
 ![Theater_Outcomes_vs_Launch](https://raw.githubusercontent.com/annaS000/mywork/main/challenges/kickstarter/resources/Theater_Outcome_vs_Launch.png)
 
  >This line graph depicts a small spike in successful outcomes in February followed by a short lull in March, but quickly increases to a very obvious peak of 111 cases in successes during the month of May. We then continue to see elevated numbers of success in the rest of the summer months, but are declining as we approach September. There is also a slight increase in October just to decline again after. I found this to be interesting so, I used the **Years** filter to see if this was a common occurrence throughout the years.
 
 ### Chart 2:
-##### [Results](####Outcomes-Based-on-Launch-Date)
+##### [Results](#outcomes-based-on-launch-date)
 ![Theater_Outcomes_vs_Launch2](https://raw.githubusercontent.com/annaS000/kickstarter-analysis/main/resources/Theater_Outcomes_vs_Launch2.png)
 
 >I broke up the data into two smaller intervals of years to see if I would yield similar results. This chart is displaying the results for the years 2015-2017. We can see the same peak in May appear along with the peak in February. In this time frame, the spike in October was lost, but we still have a slight spike in November.
 
 ### Chart 3:
-##### [Results](####Outcomes-Based-on-Launch-Date)
+##### [Results](#outcomes-based-on-launch-date)
  ![Theater_Outcomes_vs_Launch3](https://raw.githubusercontent.com/annaS000/mywork/main/challenges/kickstarter/resources/Theater_Outcome_vs_Launch3.png)
 >This graph is displaying the results for the years 2009-2014. It is surprising to see there were *only* successful Theater campaigns during these years. It was even more surprising to see that there were no campaigns in February or May! There is not as much Theater data for these years, but we can still see that familiar peak at the beginning of summer and decline towards fall and pick up near October/November. At first, I was considering maybe plays were not as popular during this time, but then it dawned on me that 2009 was when this website launched. So, this is data from the first 6 years of Kickstarter's existence which explains the minimal amount of data in these years.
 
 ### **Analysis of Outcomes Based on Goals**
 For this analysis, I had to create ranges of funding goals and then use the **COUNTIFS()** function to count play campaign outcomes based on the goal range. After I collected those numbers, I summed the rows to  for the total projects and then found the percentages of each outcome. Using another PivotTable I made the PivotChart below.
 ### Chart 4:
-##### [Results](####Outcomes-Based-on-Goals)
+##### [Results](#outcomes-based-on-goals)
 ![Outcomes_vs_Goals](https://raw.githubusercontent.com/annaS000/mywork/main/challenges/kickstarter/resources/Outcomes_vs_Goals.png)
 >Looking at this line graph I located the ranges with the funding goal ranges that have the highest and lowest success rates. The highest rates would be the campaigns less than $1000, $1000 to $4999, $35000 to $39999, and $40000 to $44999. The lowest rates belonged the the ranges $25000 to $29999 and $45000 to $49999.
 ### Chart 5:
-##### [Results](####Outcomes-Based-on-Goals)
+##### [Results](#outcomes-based-on-goals)
 ![plays-per-goal](https://raw.githubusercontent.com/annaS000/kickstarter-analysis/main/resources/plays-per-goal.png)
 >Here I made a chart that shows the total number of projects per goal range. I did this to help determine which ranges had substantial data to make any claims. We can see majority of the play campaigns had a funding goal between $1000 to $4999. As the goal ranges get more expensive the number of campaigns go down.
 
