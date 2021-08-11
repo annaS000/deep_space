@@ -19,7 +19,7 @@ To begin the analysis of campaign launch dates, I created a line graph that disp
 
 ### Chart 1: 
 ###### [Results](#outcomes-based-on-launch-date)
-![Theater_Outcomes_vs_Launch](https://raw.githubusercontent.com/annaS000/mywork/main/challenges/kickstarter/resources/Theater_Outcome_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](https://raw.githubusercontent.com/annaS000/kickstarter-analysis/main/resources/Theater_Outcomes_vs_Launch.png)
 ##### A Look at Chart 1:
  >This line graph depicts a small spike in successful outcomes in February followed by a short lull in March, but quickly increases to a very obvious peak of 111 cases in successes during the month of May. We then continue to see elevated numbers of success in the rest of the summer months, but are declining as we approach September. There is also a slight increase in October just to decline again after. I found this to be interesting so, I used the **Years** filter to see if this was a common occurrence throughout the years.
 
