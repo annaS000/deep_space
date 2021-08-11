@@ -14,6 +14,8 @@ This section will walk through the process I took to analyze this data for Louis
 ---
 ### **Analysis of Outcomes Based on Launch Date**
 To begin the analysis of campaign launch dates, I created a line graph that displays the number of successful, failed, and canceled campaigns throughout the months of the year. This was done by creating a PivotTable with the rows populated with **Date Created Conversion**, columns labeled **outcomes**, and showing the values for the **Count of Outcomes**. I added filters for **Parent Category** and **Years** and then set the Parent Category to **Theater** so I can see the results for those specific data points. After looking the graphs over, I added data labels to point in the graph I found to be interesting.
+### Table 1:
+![Table 1](https://raw.githubusercontent.com/annaS000/kickstarter-analysis/main/resources/Outcomes_v_launch.png)
 
 ### Chart 1: 
 ##### [Results](#outcomes-based-on-launch-date)
@@ -34,6 +36,10 @@ To begin the analysis of campaign launch dates, I created a line graph that disp
 
 ### **Analysis of Outcomes Based on Goals**
 For this analysis, I had to create ranges of funding goals and then use the **COUNTIFS()** function to count play campaign outcomes based on the goal range. After I collected those numbers, I summed the rows to  for the total projects and then found the percentages of each outcome. Using another PivotTable I made the PivotChart below.
+### Table 2:
+![Table 2](https://raw.githubusercontent.com/annaS000/kickstarter-analysis/main/resources/outcomes_v_goal_table.png)
+### Table 3:
+![Table 3](https://raw.githubusercontent.com/annaS000/kickstarter-analysis/main/resources/outcomes_v_goal_p.png)
 ### Chart 4:
 ##### [Results](#outcomes-based-on-goals)
 ![Outcomes_vs_Goals](https://raw.githubusercontent.com/annaS000/mywork/main/challenges/kickstarter/resources/Outcomes_vs_Goals.png)
