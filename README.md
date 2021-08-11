@@ -107,7 +107,7 @@ This section will discuss my conclusions from the data and make recommendations 
 
 #### **Other Possible Charts**
 4. What are some other possible tables and/or graphs that we could create?
-    #### Duration of Campaigns:
+    #### **Duration of Campaigns**:
     * Another way to use the Launch Date for analysis is by also use the End Date of the campaigns. I created a new column in the spreadsheet to show how many days each campaign lasted by using the function **DAYS()** and labeled it **Duration**. I was curious to see if the longer a campaign runs the more likely it will be successful because the longer time would allow more opportunities for backers to donate funds. I created charts and PivotTables similar to the ones for Outcomes Based on Goals by counting the number of outcomes per range of days using the **COUNTIFS()** function.  
     
 #### **Count of Campaigns Based on Duration**
@@ -118,6 +118,7 @@ This section will discuss my conclusions from the data and make recommendations 
 ##### Outcomes Based on Duration:
 >In these two charts above, you can see that thought is actually not the case here. In fact, the sweet spot of how many days the campaigns ran is between 20-39 days. Not only is there a substantial amount of cases for these amounts of days, these ranges also have higher success rates.
 
+#### **Charts Based on Backer Count**
 * Other charts I made in relation to the Launch date used the **backers_count** and **country** columns.
 
 #### **Count of Backers by Country**
@@ -135,7 +136,8 @@ This section will discuss my conclusions from the data and make recommendations 
 ![Backers per Month GB](https://raw.githubusercontent.com/annaS000/kickstarter-analysis/main/resources/backers-per-monthGB.png)
 ##### Backers Throughout the Year
 > As I suspected, these graphs look similar to the ones made for Theater Outcomes vs. Launch Date, specifically the line representing the successful campaigns. This makes sense that the months with higher counts of backers would also be the months with most successful campaigns. Something I found interesting about these graphs is usually October only shows a small spike in successful campaigns in the Outcomes vs. Launch Date graphs, but here October often has an impressive amount of backers relative to the graphs, especially in the chart for the US. 
-    
+
+#### **Reformatting Goals Chart**
 * Lastly, I felt I could benefit from making a different style chart for Outcomes based on Goals.
 
 #### **Variation of the Outcomes vs. Goals Chart**
