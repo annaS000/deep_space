@@ -66,7 +66,7 @@ For this analysis, I had to create ranges of funding goals and then use the **CO
 
     * October appeared to be somewhat of a revival month for Theater campaigns based on these charts. It is possible that these campaigns may be for plays that are related to the upcoming holiday season which may be more desirable for people to support. 
 
-    * [Chart 3](#chart-3) shows that all Theater campaigns did well in the first 6 years of Kickstarter being a website. Perhaps the fact that it was a new platform caused a lot of buzz that which influenced people to support campaigns. I think the results of Chart 3 would suggest if you have a play that needs funding, you need a time machine haha! 
+    * [Chart 3](#chart-3) shows that all Theater campaigns did well in the first 6 years of Kickstarter being a website. Perhaps the fact that it was a new platform caused a lot of buzz that which influenced people to support campaigns. 
 
 
 #### **Outcomes Based on Goals**
