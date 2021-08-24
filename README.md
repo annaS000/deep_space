@@ -149,3 +149,14 @@ This section will discuss my conclusions from the data and make recommendations 
 
 # References
 [Click here](https://github.com/annaS000/kickstarter-analysis/blob/main/References.pdf) for references.
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBWCGTLTP3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZBWCGTLTP3');
+</script>
